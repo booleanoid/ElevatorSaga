@@ -15,8 +15,7 @@
       f.on("up_button_pressed down_button_pressed", function(){
         e.goToFloor(f.floorNum())
       })
-
-    })
+    });
 
   },
   update: function(dt, elevators, floors) {
